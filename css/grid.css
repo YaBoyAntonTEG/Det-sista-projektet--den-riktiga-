@@ -1,0 +1,30 @@
+.homecontainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-auto-rows: minmax(40px, auto);
+}
+
+.white {
+  grid-column: 1/-1;
+  grid-row: 3/17;
+}
+
+h1 {
+  grid-column: 2/10;
+  grid-row: 1/2;
+}
+
+#aboutme {
+  grid-column: 3/6;
+  grid-row: 4/5;
+}
+
+#me {
+  grid-column: 3/6;
+  grid-row: 5/6;
+}
+
+#prof {
+  grid-column: 7/-1;
+  grid-row: -1/9;
+}
