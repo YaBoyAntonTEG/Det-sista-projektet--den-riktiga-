@@ -1,15 +1,17 @@
+
+
 #menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#menu {
+.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(220, 142, 129);
 }
 
 .menuitem {
@@ -27,4 +29,14 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
+}
+
+.menu.scrolled {
+  background-color: rgb(66, 52, 172) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }

@@ -3,11 +3,10 @@ body {
 }
 
 .white {
-  background-color: rgb(131, 135, 134)
+  background-color: rgb(65, 89, 125)
 }
 
 h1 {
-  position: sticky;
   top: 60px;
   font-size: 550%;
   margin-top: 150px;
