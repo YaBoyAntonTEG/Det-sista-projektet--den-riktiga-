@@ -35,3 +35,32 @@ h1 {
   grid-column: 7/-1;
   grid-row: -1/9;
 }
+
+section {
+grid-column: 7/12;
+grid-row: 5/9;
+}
+
+#santamaria {
+  width: 100%;
+}
+
+
+#churchtext {
+  grid-column: 7/12;
+  grid-row: 7/8;
+  width: 100%;
+  z-index: 3;
+  text-align: right;
+}
+
+#character {
+  grid-column: 9/11;
+  grid-row: 7/8;
+  width: 100%;
+  margin-top: 150px
+}
+
+/** p span{
+  background-color: white;
+} **/

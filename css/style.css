@@ -21,10 +21,36 @@ h1 {
   position: sticky;
   z-index: -1;
   top: 100px;
+  filter: drop-shadow(0 1vw 0.5vw rgba rgb(73, 47, 159));
 }
 
 #prof {
 width: 100%;
 z-index: -3;
 margin-bottom: 300px
+}
+
+#santamaria {
+  border-radius: 5%;
+
+  background: url(img/tiger.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px #3d3082;
+  -webkit-box-shadow: 10px 10px 5px #3d3082;
+  box-shadow: 10px 10px 5px #3d3082;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+}
+
+p {
+  font-family: Poppins, sans-serif;
+}
+
+#churchtext {
+  font-size: 17px;
+  color: black;
+}
+
+#churchtext span {
+  background-color: rgb(212, 212, 212);
 }
