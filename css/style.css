@@ -1,5 +1,6 @@
 body {
   background-image: url('../resources/back.png');
+  margin: 0px;
 }
 
 .white {
@@ -10,6 +11,7 @@ h1 {
   top: 60px;
   font-size: 550%;
   margin-top: 150px;
+  font-family: Poppins;
 }
 
 #menu {
@@ -51,6 +53,57 @@ p {
   color: black;
 }
 
+#anton {
+  font-size: 17px;
+  color: black;
+
+}
+
 #churchtext span {
   background-color: rgb(212, 212, 212);
+}
+
+#anton span {
+  background-color: rgb(212, 212, 212);
+}
+
+#me {
+background-color: white;
+padding: 5px;
+}
+
+@media screen and (max-width: 850px) {
+  #prof {
+      display: none;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  #character {
+    text-align: center;
+  }
+
+
+}
+
+#florence1 span {
+  background-color: white;
+}
+
+#rome2 span {
+  background-color: white;
+}
+
+#milan3 span {
+  background-color: white;
+}
+
+#siena4 span {
+  background-color: white;
+}
+
+#venice5 span {
+  background-color: white;
 }
