@@ -9,9 +9,10 @@ body {
 
 h1 {
   top: 60px;
-  font-size: 550%;
+  font-size: 500%;
   margin-top: 150px;
   font-family: Poppins;
+  width: 100%;
 }
 
 #menu {
@@ -82,7 +83,6 @@ p {
   }
 
   .white {
-    padding-right: 20px; 
   }
 
 
