@@ -9,7 +9,7 @@ body {
 
 h1 {
   top: 60px;
-  font-size: 500%;
+  font-size: 10vh;
   margin-top: 150px;
   font-family: Poppins;
   width: 100%;
@@ -106,4 +106,47 @@ p {
 
 #venice5 span {
   background-color: white;
+}
+
+
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: rgb(220, 142, 129);*/
+}
+
+.menuitem {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(195, 97, 144);
+}
+
+.menu.scrolled {
+  background-color: rgb(77, 68, 148) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
 }
