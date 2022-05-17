@@ -1,5 +1,5 @@
 body {
-  background-image: url('../resources/back.png');
+  background-image: url('../resources/santamaria.webp');
   margin: 0px;
 }
 
@@ -24,7 +24,6 @@ h1 {
   position: sticky;
   z-index: -1;
   top: 100px;
-  filter: drop-shadow(0 1vw 0.5vw rgba rgb(73, 47, 159));
 }
 
 #prof {
