@@ -78,6 +78,13 @@ p {
   .white {
   }
 
+  h1 {
+    top: 60px;
+    font-size: 8vh;
+    margin-top: 150px;
+    font-family: Poppins;
+    width: 100%;
+  }
 
 }
 
