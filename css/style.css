@@ -1,6 +1,7 @@
 body {
   background-image: url('../resources/santamaria.webp');
   margin: 0px;
+  width: 100vw;
 }
 
 .white {
